@@ -1,0 +1,16 @@
+html {
+	background-image: url(background.jpg);
+}
+h1 {
+	text-align: center;
+}
+p{
+	margin-left: 300px;
+	margin-right: 300px;
+}
+img{
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
