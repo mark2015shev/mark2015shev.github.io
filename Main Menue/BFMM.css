@@ -1,0 +1,33 @@
+html {
+	background-image: url(tree.png);
+	margin-right: 50px;
+	background-color: lightblue;
+
+}
+h1{
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	width: 300px;
+	background-color: lightgreen;
+	padding:0;
+	}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding-left: 16px;
+	border-width: 1px;
+	border-style: solid;
+	
+	
+} 
+nav ul li a:hover {
+	background-color: gray;
+	
+}
+.active{
+	background-color: #4CAF50;
+	color: gray;
+}
