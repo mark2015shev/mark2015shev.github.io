@@ -47,7 +47,7 @@ nav ul li a:hover {
 		top:0;
 		left: 0;
 		width: 100%;
-		background-color: #f1f1f1;
+		background-color: lightgreen;
 		position: fixed;
 	}
 
@@ -59,7 +59,7 @@ nav ul li a:hover {
 	nav ul li a {
 		display: block;
 		text-decoration: none;
-		color: #000;
+		color: black;
 		padding-top: 8px;
 		padding-bottom: 8px;
 		padding-left: 16px;
