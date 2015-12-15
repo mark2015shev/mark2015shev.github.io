@@ -40,8 +40,8 @@ nav ul li a:hover {
 		padding: 0;
 		top:0;
 		left: 0;
-		width: 100%;
-		background-color: #f1f1f1;
+		width: 50%;
+		background-color: lightgreen;
 		position: fixed;
 	}
 
