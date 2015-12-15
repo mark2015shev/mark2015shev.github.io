@@ -1,11 +1,38 @@
 html {
 	background-image: url(tree.png);
-	margin-right: 50px;
+	background-size: 100%;
 	background-color: lightblue;
+	background-repeat: no-repeat;
+	
 
 }
-h1{
+h1 {
+	font-family: 'Amatic SC', cursive;
+	color: #061539;
 	text-align: center;
+	border-style: solid;
+	border-width: 4px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: white;
+}
+img{
+	margin-bottom: 25px;
+	size: 100%;
+	margin-left: 19%;
+	margin-right: 81%;
+	display: block;
+}
+h2{
+	text-align: center;
+	color:#FFFFFD;
+}
+p{
+	margin-left: 19%;
+	margin-right: 19%;
+	color:#FFFFFD;
 }
 nav ul {
 	list-style-type: none;
@@ -32,7 +59,7 @@ nav ul li a:hover {
 	color: gray;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 	
 	nav ul {
 		list-style-type: none;
@@ -40,7 +67,7 @@ nav ul li a:hover {
 		padding: 0;
 		top:0;
 		left: 0;
-		width: 50%;
+		width: 100%;
 		background-color: lightgreen;
 		position: fixed;
 	}
@@ -74,4 +101,8 @@ nav ul li a:hover {
 	margin-right: 50%;
 	margin-left: 50%;
 	background-color: lightblue;
+	}
+	h1{
+		
+	}
 }
